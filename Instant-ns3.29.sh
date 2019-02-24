@@ -5,6 +5,7 @@ sudo pip install cxxfilt
 sudo apt-get install libgtk2.0-0 libgtk2.0-dev vtun lxc libboost-signals-dev libboost-filesystem-dev
 wget https://www.nsnam.org/releases/ns-allinone-3.29.tar.bz2
 tar -xvf ns-allinone-3.29.tar.bz2
-sudo ns-allinone-3.29/build.py
-sudo ns-allinone-3.29/ns-3.29/waf configure
-sudo ns-allinone-3.29/ns-3.29/waf 
+cd './ns-allinone-3.29/'
+sudo ./build.py
+sudo /ns-3.29/waf configure
+sudo /ns-3.29/waf 
