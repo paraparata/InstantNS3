@@ -7,5 +7,3 @@ wget https://www.nsnam.org/releases/ns-allinone-3.29.tar.bz2
 tar -xvf ns-allinone-3.29.tar.bz2
 cd './ns-allinone-3.29/'
 sudo ./build.py
-sudo /ns-3.29/waf configure
-sudo /ns-3.29/waf 
